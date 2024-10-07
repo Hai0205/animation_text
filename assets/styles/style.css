@@ -59,3 +59,18 @@ body {
   color: #000;
   font-weight: 700;
 }
+.effect-4 {
+  height: 24px;
+  overflow: hidden;
+}
+
+/* Main styles */
+.text5 {
+  fill: none;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}

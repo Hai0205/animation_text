@@ -3,6 +3,7 @@ $(document).ready(function () {
   effect1();
   effect2();
   effect3();
+  effect4();
 });
 function effect1() {
   const splitText = new SplitType(".effect-text ", { types: "chars" });
@@ -49,4 +50,19 @@ function effect3() {
     },
     "+=0.25"
   );
+}
+
+function effect4() {
+  const childSplit = new SplitType(".effect-4 h2", {
+    type: "lines",
+    linesClass: "split-child",
+  });
+  gsap.from(childSplit.lines, {
+    duration: 1.5,
+    yPercent: 100,
+    ease: "power4",
+    stagger: 0.1,
+    repeat: -1, // Infinite loop
+    repeatDelay: 0,
+  });
 }
