@@ -75,7 +75,7 @@ svg {
 
 .text-copy {
   fill: none;
-  stroke: white;
+  /* stroke: white; */
   stroke-dasharray: 6% 29%;
   stroke-width: 5px;
   stroke-dashoffset: 0%;
@@ -83,27 +83,27 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-  stroke: #4d163d;
+  stroke: #000;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #840037;
+  stroke: #000;
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3) {
-  stroke: #bd0034;
+  stroke: #000;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
-  stroke: #bd0034;
+  stroke: #000;
   animation-delay: -4s;
 }
 
 .text-copy:nth-child(5) {
-  stroke: #fdb731;
+  stroke: #000;
   animation-delay: -5s;
 }
 
