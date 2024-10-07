@@ -38,3 +38,24 @@ body {
 .text {
   overflow: hidden;
 }
+
+.container-sec {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.effect-2 {
+  overflow: hidden;
+  height: 24px;
+}
+.effect-3 ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.effect-3 ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+  font-weight: 700;
+}
